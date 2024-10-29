@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    box-shadow: 0 0 21px #7777776c;
+    padding: 50px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.catalog {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.catalog h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+.catalog-block {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.card {
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card img {
+    height: 400px;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.addform {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.addform .input {
+    width: 500px;
+    font-size: 20px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #777;
+    outline: none;
+}
+
+.input-file {
+    font-size: 16px;
+}
+
+.add-btn {
+    color: white;
+    background-color: rgb(245, 165, 179);
+    padding: 15px;
+    width: 500px;
+    font-size: 20px;
+    border: none;
+}
+
+.category {
+    display: flex;
+    gap: 20px;
+}
+
+.category a {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(245, 165, 179);
+    color: white;
+    background-color: rgb(245, 165, 179);
+}
+
+.search {
+    display: flex;
+}
+
+.search-input {
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid rgb(245, 165, 179);
+    width: 300px;
+    font-size: 18px;
+    padding: 15px;
+    outline: none;
+}
+
+.search-btn {
+    background-color: rgb(245, 165, 179);
+    color: white;
+    border: none;
+    width: 100px; 
+    padding: 15px;
+    font-size: 16px;  
+}
+
+.error {
+    color: rgb(241, 75, 75);
+}
+
